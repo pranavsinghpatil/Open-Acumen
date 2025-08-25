@@ -4898,6 +4898,1746 @@
         "Timeframe for improvement"
       ]
     }
+  },
+ {
+    "input": "How to fix a leaky faucet?",
+    "output": {
+      "refined_question": "What are the steps to repair a leaky faucet at home?",
+      "followups": [
+        "Do you have any prior experience with plumbing or DIY repairs?",
+        "What tools and materials do you currently have available?"
+      ],
+      "assumptions": [
+        "You are a homeowner or renter looking to perform a basic repair.",
+        "You have access to basic tools and materials."
+      ],
+      "ask_for_constraints": [
+        "What is your budget for purchasing new tools or materials?",
+        "How much time can you dedicate to this repair?"
+      ]
+    }
+  },
+  {
+    "input": "How to start a vegetable garden?",
+    "output": {
+      "refined_question": "What are the essential steps and considerations for starting a vegetable garden at home?",
+      "followups": [
+        "What type of vegetables are you interested in growing?",
+        "Do you have access to a backyard or are you planning to use containers?"
+      ],
+      "assumptions": [
+        "You have some outdoor or indoor space available for gardening.",
+        "You are a beginner looking for guidance on starting a garden."
+      ],
+      "ask_for_constraints": [
+        "What is your budget for gardening supplies and tools?",
+        "How much time can you dedicate to gardening each week?"
+      ]
+    }
+  },
+  {
+    "input": "How to plan for retirement?",
+    "output": {
+      "refined_question": "What are the key steps and strategies for planning a secure retirement?",
+      "followups": [
+        "What is your current age and expected retirement age?",
+        "Do you have any existing retirement accounts or investments?"
+      ],
+      "assumptions": [
+        "You are looking to start planning for retirement or improve your current plan.",
+        "You have a steady income and some savings to invest."
+      ],
+      "ask_for_constraints": [
+        "What is your current monthly income and expenditure?",
+        "Are there any specific retirement goals or lifestyle preferences you have?"
+      ]
+    }
+  },
+  {
+    "input": "How to manage anxiety?",
+    "output": {
+      "refined_question": "What are some effective techniques and strategies for managing anxiety in daily life?",
+      "followups": [
+        "Have you experienced anxiety for a long time, or is it a recent development?",
+        "Do you have access to professional mental health support?"
+      ],
+      "assumptions": [
+        "You are looking for practical and sustainable strategies to manage anxiety.",
+        "You are open to trying different techniques and approaches."
+      ],
+      "ask_for_constraints": [
+        "What are the main triggers or sources of your anxiety?",
+        "Are there any specific situations or times when your anxiety is more severe?"
+      ]
+    }
+  },
+  {
+    "input": "How to manage time better?",
+    "output": {
+      "refined_question": "What are some effective time management techniques and tools for improving productivity and work-life balance?",
+      "followups": [
+        "What are your main responsibilities and tasks in a typical day?",
+        "Do you have any specific goals or projects you are working towards?"
+      ],
+      "assumptions": [
+        "You have a busy schedule with multiple tasks and responsibilities.",
+        "You are looking for practical and sustainable strategies to manage your time more effectively."
+      ],
+      "ask_for_constraints": [
+        "What is your typical daily schedule like?",
+        "Are there any specific time management tools or techniques you prefer?"
+      ]
+    }
+  },
+  {
+    "input": "How to maintain a long-distance relationship?",
+    "output": {
+      "refined_question": "What are some effective strategies and tips for maintaining a healthy and happy long-distance relationship?",
+      "followups": [
+        "How long have you been in a long-distance relationship?",
+        "Do you have a plan or timeline for when you will be able to live together or in the same location?"
+      ],
+      "assumptions": [
+        "You are in a committed long-distance relationship and looking for ways to strengthen and maintain it.",
+        "You and your partner are both willing to put in effort and communicate effectively."
+      ],
+      "ask_for_constraints": [
+        "What are the main challenges or issues you are currently facing in your long-distance relationship?",
+        "Are there any specific communication tools or strategies you prefer to use?"
+      ]
+    }
+  },
+  {
+    "input": "How to negotiate a salary raise?",
+    "output": {
+      "refined_question": "What are the key steps and strategies for successfully negotiating a salary raise with your employer?",
+      "followups": [
+        "What is your current job title and responsibilities?",
+        "Have you received any recent performance reviews or feedback that supports your request for a raise?"
+      ],
+      "assumptions": [
+        "You are currently employed and looking to negotiate a higher salary.",
+        "You have a good understanding of your job responsibilities and performance."
+      ],
+      "ask_for_constraints": [
+        "What is your current salary and the amount of raise you are aiming for?",
+        "Are there any specific achievements or contributions you want to highlight during the negotiation?"
+      ]
+    }
+  },
+  {
+    "input": "How to create a budget?",
+    "output": {
+      "refined_question": "What are the essential steps and considerations for creating a personal budget to manage your finances effectively?",
+      "followups": [
+        "What are your main sources of income and expenses?",
+        "Do you have any specific financial goals or priorities, such as saving for a down payment or paying off debt?"
+      ],
+      "assumptions": [
+        "You are looking to create a budget to better manage your finances and achieve your financial goals.",
+        "You have a steady income and some expenses that you want to track and control."
+      ],
+      "ask_for_constraints": [
+        "What is your current monthly income and expenditure?",
+        "Are there any specific budgeting tools or methods you prefer to use?"
+      ]
+    }
+  },
+  {
+    "input": "How to potty train a toddler?",
+    "output": {
+      "refined_question": "What are some effective techniques and strategies for potty training a toddler?",
+      "followups": [
+        "How old is your toddler, and have they shown any signs of readiness for potty training?",
+        "Do you have a specific timeframe or deadline for completing the potty training process?"
+      ],
+      "assumptions": [
+        "You are a parent or caregiver of a toddler who is ready or almost ready to start potty training.",
+        "You are looking for practical and positive strategies to make the potty training process as smooth and stress-free as possible."
+      ],
+      "ask_for_constraints": [
+        "What is your typical daily routine with your toddler, and how do you think potty training will fit into that routine?",
+        "Are there any specific potty training tools or resources you prefer to use, such as a potty chair or training pants?"
+      ]
+    }
+  },
+  {
+    "input": "How to train for a marathon?",
+    "output": {
+      "refined_question": "What is a comprehensive training plan for preparing to run a marathon, including running schedules, nutrition tips, and injury prevention strategies?",
+      "followups": [
+        "What is your current fitness level and running experience?",
+        "Do you have any specific time or performance goals for the marathon?"
+      ],
+      "assumptions": [
+        "You are a beginner or intermediate runner looking to train for your first marathon or improve your performance in a subsequent marathon.",
+        "You have access to safe and suitable running routes and equipment, such as running shoes and clothing."
+      ],
+      "ask_for_constraints": [
+        "What is your timeline for training, and when is the marathon scheduled to take place?",
+        "Are there any specific running or training preferences or constraints you have, such as a preference for running outdoors or on a treadmill?"
+      ]
+    }
+  },
+  {
+    "input": "How to bake a cake from scratch?",
+    "output": {
+      "refined_question": "What are the essential ingredients, tools, and step-by-step instructions for baking a cake from scratch?",
+      "followups": [
+        "What type of cake are you interested in baking (e.g., vanilla, chocolate, red velvet)?",
+        "Do you have any dietary restrictions or preferences, such as gluten-free or vegan?"
+      ],
+      "assumptions": [
+        "You are a beginner or intermediate baker looking to make a homemade cake from scratch.",
+        "You have access to basic baking ingredients and equipment, such as flour, sugar, eggs, and an oven."
+      ],
+      "ask_for_constraints": [
+        "What is your timeline for baking the cake, and do you need any tips for baking ahead or storing the cake?",
+        "Are there any specific decorating or presentation preferences or constraints you have for the cake?"
+      ]
+    }
+  },
+  {
+    "input": "How to make a scrapbook?",
+    "output": {
+      "refined_question": "What are the essential materials, techniques, and creative ideas for making a scrapbook to preserve and display your memories and photos?",
+      "followups": [
+        "What is the occasion or theme for your scrapbook, such as a vacation, wedding, or baby's first year?",
+        "Do you have any specific design or layout preferences or constraints for your scrapbook pages?"
+      ],
+      "assumptions": [
+        "You are a beginner or intermediate crafter looking to make a scrapbook to preserve and display your memories and photos.",
+        "You have access to basic scrapbooking materials and tools, such as paper, adhesives, and scissors."
+      ],
+      "ask_for_constraints": [
+        "What is your timeline for completing the scrapbook, and how much time can you dedicate to working on it each week?",
+        "What is your budget for scrapbooking materials and supplies?"
+      ]
+    }
+  },
+  {
+    "input": "How to declutter your home?",
+    "output": {
+      "refined_question": "What are some practical and effective strategies for decluttering and organizing your home to create a more functional and peaceful living space?",
+      "followups": [
+        "What are the main areas or rooms in your home that you want to focus on decluttering and organizing?",
+        "Do you have any specific goals or priorities for your home organization project, such as creating more storage space or improving the flow and layout of your rooms?"
+      ],
+      "assumptions": [
+        "You are looking to declutter and organize your home to create a more functional and peaceful living space.",
+        "You have some time and energy to devote to a home organization project but may be feeling overwhelmed or unsure of where to start."
+      ],
+      "ask_for_constraints": [
+        "What is your timeline for completing your home organization project, and how much time can you dedicate to working on it each week?",
+        "Are there any specific organizational tools or systems you prefer to use, such as bins, baskets, or shelving units?"
+      ]
+    }
+  },
+  {
+    "input": "How to develop a growth mindset?",
+    "output": {
+      "refined_question": "What are the key principles and practices for cultivating a growth mindset and embracing challenges and opportunities for learning and growth?",
+      "followups": [
+        "What are some areas of your life or work where you feel you have a fixed mindset and would like to develop more of a growth mindset?",
+        "Do you have any specific goals or aspirations that you believe a growth mindset could help you achieve?"
+      ],
+      "assumptions": [
+        "You are interested in developing a growth mindset to embrace challenges and opportunities for learning and growth in your personal and professional life.",
+        "You are open to exploring and adopting new beliefs and practices that support a growth mindset."
+      ],
+      "ask_for_constraints": [
+        "What are some potential obstacles or barriers to developing a growth mindset that you anticipate or have experienced in the past?",
+        "Are there any specific resources or tools you prefer to use for learning and personal development, such as books, podcasts, or online courses?"
+      ]
+    }
+  },
+  {
+    "input": "How to build a website?",
+    "output": {
+      "refined_question": "What are the essential steps and considerations for building a professional and functional website, including domain registration, web hosting, design, and content creation?",
+      "followups": [
+        "What is the purpose and goal of your website, such as promoting your business, sharing your portfolio, or blogging about your interests?",
+        "Do you have any prior experience or knowledge of web design and development, and are you planning to build the website yourself or hire a professional?"
+      ],
+      "assumptions": [
+        "You are looking to build a website to establish an online presence for your business, portfolio, or personal brand.",
+        "You have some basic knowledge of computers and the internet but may be new to web design and development."
+      ],
+      "ask_for_constraints": [
+        "What is your budget for building and maintaining your website, including expenses for domain registration, web hosting, design, and development?",
+        "What is your timeline for launching your website, and are there any specific deadlines or milestones you need to meet?"
+      ]
+    }
+  },
+  {
+    "input": "How to improve your memory?",
+    "output": {
+      "refined_question": "What are some effective techniques and strategies for improving your memory and retaining information more effectively?",
+      "followups": [
+        "Are there any specific areas of your life or work where you feel you need to improve your memory, such as studying for exams or remembering names and faces?",
+        "Do you have any prior experience or knowledge of memory improvement techniques, and are there any specific strategies you are interested in trying?"
+      ],
+      "assumptions": [
+        "You are looking to improve your memory and retain information more effectively to enhance your learning, productivity, and overall quality of life.",
+        "You are open to exploring and adopting new techniques and strategies that support memory improvement."
+      ],
+      "ask_for_constraints": [
+        "What is your timeline for improving your memory, and are there any specific goals or milestones you want to achieve?",
+        "Are there any specific resources or tools you prefer to use for learning and self-improvement, such as books, apps, or online courses?"
+      ]
+    }
+  },
+  {
+    "input": "How to invest in the stock market?",
+    "output": {
+      "refined_question": "What are the key principles and practices for investing in the stock market, including understanding market trends, analyzing stocks, and managing risk?",
+      "followups": [
+        "What is your current level of knowledge and experience with investing in the stock market?",
+        "Do you have any specific financial goals or objectives for your stock market investments, such as saving for retirement or building wealth?"
+      ],
+      "assumptions": [
+        "You are interested in learning how to invest in the stock market to grow your wealth and achieve your financial goals.",
+        "You have some basic knowledge of personal finance and investing but may be new to the stock market."
+      ],
+      "ask_for_constraints": [
+        "What is your budget for investing in the stock market, and are there any specific types of stocks or sectors you are interested in?",
+        "What is your timeline for investing in the stock market, and are there any specific short-term or long-term goals you want to achieve?"
+      ]
+    }
+  },
+  {
+    "input": "How to start a collection?",
+    "output": {
+      "refined_question": "What are some tips and considerations for starting and maintaining a collection, including choosing a focus, sourcing items, and organizing and displaying your collection?",
+      "followups": [
+        "What type of items are you interested in collecting, such as stamps, coins, or vintage toys?",
+        "Do you have any specific goals or objectives for your collection, such as completing a set or focusing on a particular theme or era?"
+      ],
+      "assumptions": [
+        "You are looking to start a collection as a hobby or interest and want guidance on how to choose a focus, source items, and organize and display your collection.",
+        "You have some basic knowledge of the items you are interested in collecting but may be new to the world of collecting."
+      ],
+      "ask_for_constraints": [
+        "What is your budget for starting and maintaining your collection, and are there any specific items or types of items you are particularly interested in acquiring?",
+        "What is your timeline for building your collection, and are there any specific milestones or goals you want to achieve?"
+      ]
+    }
+  },
+  {
+    "input": "How to plan a road trip?",
+    "output": {
+      "refined_question": "What are the essential steps and considerations for planning a memorable and enjoyable road trip, including choosing a destination, mapping out a route, and packing and preparing your vehicle?",
+      "followups": [
+        "What is your desired destination or destinations for your road trip, and are there any specific attractions or activities you want to experience along the way?",
+        "Who will be joining you on your road trip, and are there any specific needs or preferences you need to consider when planning your route and accommodations?"
+      ],
+      "assumptions": [
+        "You are looking to plan a road trip as a fun and adventurous way to explore new places and create lasting memories with friends or family.",
+        "You have access to a reliable vehicle and are comfortable with driving long distances."
+      ],
+      "ask_for_constraints": [
+        "What is your budget for your road trip, including expenses for gas, food, lodging, and activities?",
+        "What is your timeline for your road trip, and are there any specific dates or events you need to work around?"
+      ]
+    }
+  },
+  {
+    "input": "How to network effectively?",
+    "output": {
+      "refined_question": "What are some strategies and best practices for building and maintaining a strong professional network, including attending events, leveraging social media, and following up with contacts?",
+      "followups": [
+        "What are your current career goals and objectives, and how do you think networking can help you achieve them?",
+        "Do you have any prior experience or comfort level with networking, and are there any specific types of events or platforms you prefer to use?"
+      ],
+      "assumptions": [
+        "You are looking to build and maintain a strong professional network to advance your career, explore new opportunities, and stay up-to-date on industry trends and developments.",
+        "You have some basic knowledge of professional networking but may be looking to improve your skills and strategies."
+      ],
+      "ask_for_constraints": [
+        "What is your timeline for building and maintaining your professional network, and are there any specific events or opportunities you want to target?",
+        "Are there any specific industries, companies, or individuals you are particularly interested in connecting with, and how can you leverage your existing network to make those connections?"
+      ]
+    }
+  },
+{
+      "input": "How to paint a room?",
+      "output": {
+        "refined_question": "What is a step-by-step process for a beginner to properly prepare and paint an interior room?",
+        "followups": ["What is the current condition of the walls (e.g., previously painted, wallpaper, damaged)?", "What type of room is it (e.g., bathroom, living room, kitchen)?", "Do you have all the necessary tools (brushes, rollers, drop cloths)?"],
+        "assumptions": ["You are painting a standard drywall or plaster interior wall.", "You want a professional-looking result, not just a quick cover-up."],
+        "ask_for_constraints": ["Size of the room to be painted", "Timeline for completing the project", "Budget for paint and supplies"]
+      }
+    },
+    {
+      "input": "Start a side business",
+      "output": {
+        "refined_question": "What are the initial steps to validate a business idea and launch a part-time venture alongside a regular job?",
+        "followups": ["What specific product or service are you considering offering?", "What skills or expertise do you have that you can monetize?", "Who would be your ideal target customer?"],
+        "assumptions": ["You want to start small while maintaining your current employment.", "You're looking for a legally compliant business structure, not just a hobby."],
+        "ask_for_constraints": ["Hours per week you can dedicate to this venture", "Initial investment capital available", "Timeline for launching your first offering"]
+      }
+    },
+    {
+      "input": "Improve posture",
+      "output": {
+        "refined_question": "What are effective exercises and daily habits to correct forward head posture and rounded shoulders caused by sedentary habits?",
+        "followups": ["What is your primary daily activity (e.g., desk job, driving, physical labor)?", "Do you experience any pain or discomfort related to your posture?", "Do you have access to exercise equipment or prefer bodyweight exercises?"],
+        "assumptions": ["Your posture issues are related to modern lifestyle habits, not medical conditions.", "You're willing to perform daily exercises to see improvement."],
+        "ask_for_constraints": ["Time you can dedicate daily to posture exercises", "Your current activity level and fitness", "Access to equipment (yoga mat, resistance bands, etc.)"]
+      }
+    },
+    {
+      "input": "Learn photography",
+      "output": {
+        "refined_question": "What are the fundamental technical and compositional principles a beginner should master to improve their photography skills?",
+        "followups": ["What type of photography interests you most (e.g., portraits, landscapes, street photography)?", "What equipment are you using (smartphone, point-and-shoot, DSLR/mirrorless)?", "Do you want to learn manual camera controls or focus on composition first?"],
+        "assumptions": ["You want to create better photographs, not just learn to use editing software.", "You have access to some type of camera."],
+        "ask_for_constraints": ["Budget for additional equipment (if any)", "Time available for practice and learning", "Preferred learning method (online courses, books, in-person classes)"]
+      }
+    },
+    {
+      "input": "Organize digital files",
+      "output": {
+        "refined_question": "What is a logical and sustainable system for organizing digital files across devices to improve productivity and reduce clutter?",
+        "followups": ["What types of files cause the most disorganization (e.g., documents, photos, projects)?", "How many devices do you need to sync across?", "Do you prefer a folder-based system or tag-based system?"],
+        "assumptions": ["You have files scattered across multiple locations and devices.", "You want a system that's easy to maintain, not just a one-time cleanup."],
+        "ask_for_constraints": ["Types of files you work with most frequently", "Storage solutions you currently use (cloud services, external drives)", "Your comfort level with technology and new software"]
+      }
+    },
+    {
+      "input": "Grow herbs indoors",
+      "output": {
+        "refined_question": "What are the essential requirements for successfully growing culinary herbs indoors year-round?",
+        "followups": ["Which specific herbs do you want to grow?", "What kind of space do you have available (windowsill, counter, dedicated shelf)?", "What is the natural light situation in your home?"],
+        "assumptions": ["You want to grow herbs for cooking purposes.", "You're starting with little to no indoor gardening experience."],
+        "ask_for_constraints": ["Available space for herb garden", "Budget for setup (pots, soil, lights, etc.)", "Time you can dedicate to maintenance weekly"]
+      }
+    },
+    {
+      "input": "Write a resume",
+      "output": {
+        "refined_question": "What is the modern standard format and content strategy for creating an effective professional resume that passes applicant tracking systems?",
+        "followups": ["What industry or field are you targeting?", "What is your experience level (entry-level, mid-career, executive)?", "Do you have specific job descriptions you're targeting?"],
+        "assumptions": ["You need a resume for corporate job applications, not academic or artistic purposes.", "You want your resume to be both human-readable and ATS-friendly."],
+        "ask_for_constraints": ["Years of professional experience to highlight", "Specific achievements or metrics you can include", "Industry-standard resume expectations for your field"]
+      }
+    },
+    {
+      "input": "Reduce screen time",
+      "output": {
+        "refined_question": "What are practical strategies and habit replacement techniques to consciously reduce recreational screen time and digital consumption?",
+        "followups": ["What type of screen time do you want to reduce (social media, streaming, gaming)?", "What triggers your excessive screen use (boredom, stress, habit)?", "What activities would you like to replace screen time with?"],
+        "assumptions": ["Your screen time is negatively impacting your life in some way.", "You have some control over your schedule and environment."],
+        "ask_for_constraints": ["Current average daily screen time", "Specific goals for reduction (hours, specific apps)", "Your living situation and responsibilities"]
+      }
+    },
+    {
+      "input": "Plan a wedding",
+      "output": {
+        "refined_question": "What is a comprehensive timeline and checklist for planning a traditional wedding ceremony and reception?",
+        "followups": ["What is your estimated guest count?", "What season are you planning for?", "What is your overall vision or theme for the wedding?"],
+        "assumptions": ["You're planning a formal wedding event, not an elopement or casual ceremony.", "You have a partner involved in the planning process."],
+        "ask_for_constraints": ["Total budget for the wedding", "Planning timeline (months until wedding)", "Must-have elements vs. flexible details"]
+      }
+    },
+    {
+      "input": "Understand crypto",
+      "output": {
+        "refined_question": "What are the fundamental concepts and technologies someone needs to understand to grasp how cryptocurrencies and blockchain work?",
+        "followups": ["Are you interested in the technology itself or primarily in investment aspects?", "What is your current level of understanding of financial markets?", "Do you have a technical background or need non-technical explanations?"],
+        "assumptions": ["You want to understand the basics, not become a developer or expert trader.", "You're approaching this as a curious beginner."],
+        "ask_for_constraints": ["Desired depth of technical understanding", "Specific cryptocurrencies you're curious about", "Time you can dedicate to learning about this topic"]
+      }
+    },
+    {
+      "input": "Meal prep for weight loss",
+      "output": {
+        "refined_question": "What are the principles of creating effective meal plans and preparation strategies specifically for sustainable weight loss?",
+        "followups": ["What is your current cooking skill level?", "Do you have any dietary restrictions or preferences?", "What types of foods do you enjoy eating regularly?"],
+        "assumptions": ["You want to lose weight through nutrition, not just exercise.", "You're willing to prepare food in advance."],
+        "ask_for_constraints": ["Calorie or macronutrient targets", "Number of meals needed per day", "Time available for weekly meal preparation"]
+      }
+    },
+    {
+      "input": "Buy a house",
+      "output": {
+        "refined_question": "What is the complete process and checklist for a first-time home buyer from mortgage pre-approval to closing?",
+        "followups": ["What type of property are you looking for (single-family, condo, townhouse)?", "What is your current financial situation (debt, savings, credit score)?", "Have you identified preferred neighborhoods or areas?"],
+        "assumptions": ["You're a first-time buyer needing guidance through the entire process.", "You're purchasing for personal residence, not investment."],
+        "ask_for_constraints": ["Target price range for home purchase", "Timeline for wanting to purchase", "Must-have features in a home"]
+      }
+    },
+    {
+      "input": "Practice mindfulness",
+      "output": {
+        "refined_question": "What are accessible techniques and exercises for incorporating mindfulness practice into daily life to reduce stress and increase presence?",
+        "followups": ["What specific benefits are you seeking (stress reduction, focus, emotional regulation)?", "What time of day works best for you to practice?", "Do you prefer guided or silent practice?"],
+        "assumptions": ["You're new to mindfulness and want practical starting points.", "You're looking for techniques that don't require special equipment or extensive time commitment."],
+        "ask_for_constraints": ["Time available for daily practice", "Preferred learning method (app, book, in-person)", "Any previous experience with meditation or mindfulness"]
+      }
+    },
+    {
+      "input": "Fix leaky faucet",
+      "output": {
+        "refined_question": "What is the diagnostic process and repair procedure for fixing common types of leaky faucets without professional help?",
+        "followups": ["What type of faucet do you have (single handle, double handle, cartridge, ball-type)?", "Where exactly is the leak coming from (spout, handles, base)?", "Do you have basic tools available (wrenches, screwdrivers, pliers)?"],
+        "assumptions": ["You have a standard residential faucet, not a commercial or specialized fixture.", "You're comfortable with basic DIY repairs."],
+        "ask_for_constraints": ["Your comfort level with plumbing repairs", "Access to replacement parts if needed", "Time available to complete the repair"]
+      }
+    },
+    {
+      "input": "Learn to sew",
+      "output": {
+        "refined_question": "What are the fundamental skills and starter projects for someone beginning to learn hand sewing and machine sewing?",
+        "followups": ["Do you want to learn hand sewing, machine sewing, or both?", "What types of projects interest you (clothing, home decor, repairs)?", "Do you have access to a sewing machine?"],
+        "assumptions": ["You're starting with little to no sewing experience.", "You want to create practical items, not just practice stitches."],
+        "ask_for_constraints": ["Budget for materials and equipment", "Time available for practice and projects", "Preferred learning method (videos, books, classes)"]
+      }
+    },
+    {
+      "input": "Invest in stocks",
+      "output": {
+        "refined_question": "What are the foundational principles and first steps for beginning to invest in the stock market with a long-term perspective?",
+        "followups": ["What is your investment goal (retirement, wealth building, specific purchase)?", "What is your risk tolerance (conservative, moderate, aggressive)?", "How hands-on do you want to be with managing investments?"],
+        "assumptions": ["You're investing for the long term, not day trading.", "You understand that all investments carry some risk."],
+        "ask_for_constraints": ["Amount of initial investment capital", "Time horizon for investment goals", "Frequency of additional contributions"]
+      }
+    },
+    {
+      "input": "Make bread at home",
+      "output": {
+        "refined_question": "What is a reliable beginner-friendly recipe and technique for making basic yeast bread from scratch at home?",
+        "followups": ["What type of bread do you want to make (sandwich loaf, artisan, sourdough)?", "Do you have any special dietary requirements (gl-free, vegan)?", "What kitchen equipment do you have available?"],
+        "assumptions": ["You're new to bread baking and want a successful first experience.", "You have access to basic kitchen ingredients and equipment."],
+        "ask_for_constraints": ["Time available for the baking process", "Special dietary needs or preferences", "Available equipment (stand mixer, bread pans, baking stone)"]
+      }
+    },
+    {
+      "input": "Improve concentration",
+      "output": {
+        "refined_question": "What are evidence-based techniques and environmental adjustments to improve focus and concentration during work or study?",
+        "followups": ["In what specific contexts do you struggle with concentration?", "What typically distracts you (internal thoughts, external noise, digital interruptions)?", "What time of day are you most naturally focused?"],
+        "assumptions": ["Your concentration issues are related to habits and environment, not medical conditions.", "You're willing to experiment with different techniques."],
+        "ask_for_constraints": ["Your typical work/study environment", "Ability to control your environment", "Time blocks you need to focus for"]
+      }
+    },
+    {
+      "input": "Choose a pet",
+      "output": {
+        "refined_question": "What factors should be considered when selecting a pet that matches one's lifestyle, living situation, and care capabilities?",
+        "followups": ["What type of animal are you considering (dog, cat, small mammal, bird, reptile)?", "How much time can you dedicate daily to pet care?", "Do you have any allergies or restrictions?"],
+        "assumptions": ["You're looking for a companion animal, not a working animal.", "You want to provide a responsible, lifelong home."],
+        "ask_for_constraints": ["Your living space (apartment, house, yard access)", "Budget for initial setup and ongoing care", "Years of commitment you can make"]
+      }
+    },
+    {
+      "input": "Learn calligraphy",
+      "output": {
+        "refined_question": "What are the basic tools and foundational strokes needed to begin learning modern calligraphy as a complete beginner?",
+        "followups": ["What style of calligraphy interests you (modern, traditional, brush lettering)?", "What is your intended use (addressing envelopes, art, personal journaling)?", "Do you want to use pen and ink or brush pens?"],
+        "assumptions": ["You're starting with no prior calligraphy experience.", "You want to learn for personal enjoyment or practical use."],
+        "ask_for_constraints": ["Budget for supplies and tools", "Time available for practice", "Preferred learning method (online tutorials, books, classes)"]
+      }
+    },
+ {
+      "input": "I want to get better at problem-solving",
+      "output": {
+        "refined_question": "What are effective strategies to improve problem-solving skills for professional or academic purposes?",
+        "followups": [
+          "Are you focusing on analytical, creative, or technical problem-solving?",
+          "Do you prefer structured exercises or real-world practice?",
+          "What specific challenges do you face in problem-solving?",
+          "How much time can you dedicate to practice weekly?"
+        ],
+        "assumptions": [
+          "You want to enhance general problem-solving abilities",
+          "You are open to practicing with exercises or projects",
+          "You have a basic level of critical thinking skills"
+        ],
+        "ask_for_constraints": [
+          "What specific context are you solving problems in (e.g., work, coding)?",
+          "What is your timeline for improvement?",
+          "Are you open to using online tools or courses?"
+        ]
+      }
+    },
+    {
+      "input": "How to start a YouTube channel",
+      "output": {
+        "refined_question": "What are the essential steps to launch a successful YouTube channel on a budget?",
+        "followups": [
+          "What is the main topic or niche of your channel?",
+          "Do you have access to basic video recording equipment?",
+          "Are you aiming to monetize or create for fun?",
+          "What is your experience with video editing?"
+        ],
+        "assumptions": [
+          "You are new to content creation",
+          "You want an affordable setup",
+          "You aim to grow an audience over time"
+        ],
+        "ask_for_constraints": [
+          "What is your budget for equipment or software?",
+          "How much time can you dedicate to creating content weekly?",
+          "What is your target audience or content focus?"
+        ]
+      }
+    },
+    {
+      "input": "I want to improve my communication skills",
+      "output": {
+        "refined_question": "What are effective techniques to enhance verbal and written communication skills?",
+        "followups": [
+          "Are you focusing on professional, social, or academic communication?",
+          "Do you prefer in-person practice or online resources?",
+          "What specific areas do you want to improve (e.g., clarity, confidence)?",
+          "Have you tried any communication exercises before?"
+        ],
+        "assumptions": [
+          "You want to communicate more effectively in daily interactions",
+          "You are open to practicing regularly",
+          "You have basic communication skills"
+        ],
+        "ask_for_constraints": [
+          "What specific communication scenarios are you targeting?",
+          "How much time can you commit to practice weekly?",
+          "What is your budget for courses or resources?"
+        ]
+      }
+    },
+    {
+      "input": "How to learn graphic design",
+      "output": {
+        "refined_question": "What is a beginner-friendly approach to learn graphic design for personal or professional use?",
+        "followups": [
+          "Are you interested in digital design, print, or both?",
+          "Do you have access to design software like Adobe Creative Suite?",
+          "Do you prefer self-study or structured courses?",
+          "What is your current skill level in design?"
+        ],
+        "assumptions": [
+          "You are new to graphic design",
+          "You want to learn practical design skills",
+          "You have access to a computer or tablet"
+        ],
+        "ask_for_constraints": [
+          "What is your budget for design software or courses?",
+          "How much time can you dedicate to learning weekly?",
+          "What specific design projects are you aiming for?"
+        ]
+      }
+    },
+    {
+      "input": "I want to start journaling",
+      "output": {
+        "refined_question": "What is the best way for a beginner to start a consistent journaling practice?",
+        "followups": [
+          "Are you journaling for self-reflection, creativity, or goal tracking?",
+          "Do you prefer digital or physical journaling?",
+          "How much time can you dedicate to journaling daily?",
+          "Are you comfortable with guided prompts or free writing?"
+        ],
+        "assumptions": [
+          "You are new to journaling",
+          "You want a simple and sustainable habit",
+          "You are open to experimenting with formats"
+        ],
+        "ask_for_constraints": [
+          "How much time can you commit to journaling daily?",
+          "What is your primary goal for journaling?",
+          "Do you prefer free or paid journaling tools?"
+        ]
+      }
+    },
+    {
+      "input": "How to improve my mental health",
+      "output": {
+        "refined_question": "What are practical strategies to support and improve mental well-being?",
+        "followups": [
+          "What specific mental health challenges are you facing?",
+          "Are you open to professional help or self-care practices?",
+          "Do you prefer mindfulness, exercise, or other activities?",
+          "What is your current stress or anxiety level?"
+        ],
+        "assumptions": [
+          "You want non-clinical mental health strategies",
+          "You are open to lifestyle changes",
+          "You have some daily flexibility"
+        ],
+        "ask_for_constraints": [
+          "How much time can you dedicate to mental health practices daily?",
+          "Are there specific mental health goals you’re targeting?",
+          "What is your budget for resources or support?"
+        ]
+      }
+    },
+    {
+      "input": "I want to learn data analysis",
+      "output": {
+        "refined_question": "What is a beginner-friendly roadmap to learn data analysis skills?",
+        "followups": [
+          "Are you learning for career, academic, or personal purposes?",
+          "Do you have experience with tools like Excel, Python, or R?",
+          "Do you prefer online courses or hands-on projects?",
+          "What specific data analysis skills are you targeting?"
+        ],
+        "assumptions": [
+          "You are new to data analysis",
+          "You want to learn practical, employable skills",
+          "You have access to a computer"
+        ],
+        "ask_for_constraints": [
+          "What is your budget for learning resources?",
+          "How much time can you dedicate to learning weekly?",
+          "What specific tools or industries are you focusing on?"
+        ]
+      }
+    },
+    {
+      "input": "How to start hiking",
+      "output": {
+        "refined_question": "What are the essential steps for a beginner to start hiking safely?",
+        "followups": [
+          "Do you have access to local trails or parks?",
+          "Are you hiking for fitness, adventure, or relaxation?",
+          "Do you prefer solo or group hiking?",
+          "What is your current fitness level?"
+        ],
+        "assumptions": [
+          "You are new to hiking",
+          "You want to start with beginner-friendly trails",
+          "You have basic outdoor gear"
+        ],
+        "ask_for_constraints": [
+          "What is your budget for hiking gear?",
+          "How much time can you dedicate to hiking weekly?",
+          "Are there specific locations or trail types you prefer?"
+        ]
+      }
+    },
+    {
+      "input": "I want to write a book",
+      "output": {
+        "refined_question": "What are the key steps to plan and write a book as a beginner?",
+        "followups": [
+          "What genre or type of book are you writing (e.g., fiction, memoir)?",
+          "Do you have a story idea or outline ready?",
+          "Are you aiming to self-publish or seek a publisher?",
+          "How much time can you dedicate to writing daily?"
+        ],
+        "assumptions": [
+          "You are new to book writing",
+          "You want a structured writing process",
+          "You are motivated to complete a draft"
+        ],
+        "ask_for_constraints": [
+          "What is your timeline for completing the book?",
+          "What is your budget for writing tools or editing?",
+          "What specific genre or audience are you targeting?"
+        ]
+      }
+    },
+    {
+      "input": "How to learn a new sport",
+      "output": {
+        "refined_question": "What is the best way for a beginner to learn a new sport effectively?",
+        "followups": [
+          "Which sport are you interested in learning?",
+          "Do you prefer team or individual sports?",
+          "Do you have access to coaching or facilities?",
+          "What is your current fitness level?"
+        ],
+        "assumptions": [
+          "You are new to the sport",
+          "You want to learn for fun or fitness",
+          "You have access to basic equipment"
+        ],
+        "ask_for_constraints": [
+          "What is your budget for equipment or lessons?",
+          "How much time can you commit to practice weekly?",
+          "What specific sport are you targeting?"
+        ]
+      }
+    },
+    {
+      "input": "I want to start a fitness routine",
+      "output": {
+        "refined_question": "What is a beginner-friendly fitness routine to improve overall health?",
+        "followups": [
+          "Do you prefer strength training, cardio, or a mix?",
+          "Are you working out at home, a gym, or outdoors?",
+          "What is your current fitness level?",
+          "Do you have any health conditions to consider?"
+        ],
+        "assumptions": [
+          "You are new to structured fitness",
+          "You want a sustainable routine",
+          "You have some time to exercise weekly"
+        ],
+        "ask_for_constraints": [
+          "How much time can you dedicate to exercise weekly?",
+          "What is your budget for equipment or gym access?",
+          "What are your specific fitness goals?"
+        ]
+      }
+    },
+    {
+      "input": "How to learn video editing",
+      "output": {
+        "refined_question": "What is the best way for a beginner to learn video editing skills?",
+        "followups": [
+          "Are you editing for personal projects or professional use?",
+          "Do you have access to software like Premiere Pro or Final Cut?",
+          "Do you prefer tutorials, courses, or hands-on practice?",
+          "What types of videos are you aiming to create?"
+        ],
+        "assumptions": [
+          "You are new to video editing",
+          "You have access to a computer",
+          "You want to learn practical editing skills"
+        ],
+        "ask_for_constraints": [
+          "What is your budget for editing software or courses?",
+          "How much time can you dedicate to learning weekly?",
+          "What specific video editing goals do you have?"
+        ]
+      }
+    },
+    {
+      "input": "I want to improve my negotiation skills",
+      "output": {
+        "refined_question": "What are effective strategies to improve negotiation skills for professional or personal use?",
+        "followups": [
+          "Are you negotiating in a business, personal, or other context?",
+          "Do you prefer role-playing practice or theoretical learning?",
+          "What specific challenges do you face in negotiations?",
+          "Are you open to workshops or online courses?"
+        ],
+        "assumptions": [
+          "You want to negotiate more confidently",
+          "You have some basic communication skills",
+          "You are open to practicing scenarios"
+        ],
+        "ask_for_constraints": [
+          "What specific negotiation scenarios are you preparing for?",
+          "How much time can you dedicate to practice weekly?",
+          "What is your budget for training resources?"
+        ]
+      }
+    },
+    {
+      "input": "How to start a book club",
+      "output": {
+        "refined_question": "What are the key steps to start and manage a successful book club?",
+        "followups": [
+          "Do you prefer an in-person or online book club?",
+          "What types of books or genres are you interested in?",
+          "How many members are you aiming to include?",
+          "How often do you want to meet?"
+        ],
+        "assumptions": [
+          "You enjoy reading and want to share it with others",
+          "You are open to organizing group activities",
+          "You want a small to medium-sized group"
+        ],
+        "ask_for_constraints": [
+          "How much time can you dedicate to organizing the club?",
+          "What is your budget for books or meeting spaces?",
+          "What specific goals do you have for the book club?"
+        ]
+      }
+    },
+    {
+      "input": "I want to learn about personal finance",
+      "output": {
+        "refined_question": "What are the essential concepts for a beginner to understand personal finance?",
+        "followups": [
+          "Are you focusing on budgeting, investing, or debt management?",
+          "Do you prefer learning through books, apps, or courses?",
+          "What is your current financial situation?",
+          "Are you aiming for short-term or long-term goals?"
+        ],
+        "assumptions": [
+          "You are new to managing personal finances",
+          "You want practical and actionable advice",
+          "You have some disposable income"
+        ],
+        "ask_for_constraints": [
+          "What specific financial goals are you targeting?",
+          "How much time can you dedicate to learning weekly?",
+          "What is your current income or budget range?"
+        ]
+      }
+    },
+    {
+      "input": "How to start baking",
+      "output": {
+        "refined_question": "What is a beginner-friendly approach to start baking at home?",
+        "followups": [
+          "Are you interested in baking bread, cakes, or pastries?",
+          "Do you have access to basic baking equipment?",
+          "Do you prefer simple recipes or complex ones?",
+          "Are you baking for fun or to share with others?"
+        ],
+        "assumptions": [
+          "You are new to baking",
+          "You have a basic kitchen setup",
+          "You want easy recipes to start"
+        ],
+        "ask_for_constraints": [
+          "What is your budget for baking supplies?",
+          "How much time can you dedicate to baking weekly?",
+          "Are there specific dietary preferences or restrictions?"
+        ]
+      }
+    },
+    {
+      "input": "I want to improve my leadership skills",
+      "output": {
+        "refined_question": "What are effective ways to develop leadership skills for professional growth?",
+        "followups": [
+          "Are you leading a team, project, or organization?",
+          "Do you prefer practical experience or formal training?",
+          "What specific leadership challenges do you face?",
+          "Are you open to mentorship or coaching?"
+        ],
+        "assumptions": [
+          "You want to lead more effectively in a professional setting",
+          "You have some leadership experience",
+          "You are open to feedback and practice"
+        ],
+        "ask_for_constraints": [
+          "What specific leadership roles are you targeting?",
+          "How much time can you dedicate to skill development?",
+          "What is your budget for training or resources?"
+        ]
+      }
+    },
+    {
+      "input": "How to learn digital marketing",
+      "output": {
+        "refined_question": "What is a beginner-friendly roadmap to learn digital marketing skills?",
+        "followups": [
+          "Are you learning for a career or personal projects?",
+          "Do you prefer focusing on SEO, social media, or ads?",
+          "Do you have experience with marketing tools or platforms?",
+          "How much time can you dedicate to learning weekly?"
+        ],
+        "assumptions": [
+          "You are new to digital marketing",
+          "You want practical, employable skills",
+          "You have access to a computer and internet"
+        ],
+        "ask_for_constraints": [
+          "What is your budget for marketing courses or tools?",
+          "What specific marketing skills are you targeting?",
+          "What is your timeline for learning?"
+        ]
+      }
+    },
+    {
+      "input": "I want to start meditating",
+      "output": {
+        "refined_question": "What is a beginner-friendly approach to start a consistent meditation practice?",
+        "followups": [
+          "Are you meditating for stress relief, focus, or spiritual growth?",
+          "Do you prefer guided or silent meditation?",
+          "How much time can you dedicate daily?",
+          "Do you have a quiet space for practice?"
+        ],
+        "assumptions": [
+          "You are new to meditation",
+          "You want a simple daily practice",
+          "You are open to free or low-cost resources"
+        ],
+        "ask_for_constraints": [
+          "How much time can you commit to meditation daily?",
+          "What specific goals do you have for meditation?",
+          "What is your budget for apps or classes?"
+        ]
+      }
+    },
+    {
+      "input": "How to plan a solo trip",
+      "output": {
+        "refined_question": "What are the key steps to plan a safe and enjoyable solo trip?",
+        "followups": [
+          "Do you prefer adventure, cultural, or relaxation-focused trips?",
+          "Are you traveling domestically or internationally?",
+          "What is your experience with solo travel?",
+          "What activities are most important to you?"
+        ],
+        "assumptions": [
+          "You are new to solo travel",
+          "You want a safe and budget-friendly trip",
+          "You are open to planning independently"
+        ],
+        "ask_for_constraints": [
+          "What is your total travel budget?",
+          "What is the duration of your trip?",
+          "Are there specific destinations you’re considering?"
+        ]
+      }
+    },
+{
+  "input": "How to get a promotion?",
+  "output": {
+   "refined_question": "What are the most effective strategies and behaviors for advancing one's career and getting a promotion?",
+   "followups": [
+    "What is your current role and industry?",
+    "What is the specific promotion you are aiming for?",
+    "What are your current responsibilities and how do they align with your career goals?"
+   ],
+   "assumptions": [
+    "You are looking for actionable advice within a professional context.",
+    "The advice should be applicable to a standard corporate or organizational structure."
+   ],
+   "ask_for_constraints": [
+    "What is your desired timeline for achieving the promotion?",
+    "Are you willing to take on additional responsibilities or training?",
+    "Are there any specific skills or experiences required for the target role?"
+   ]
+  }
+ },
+ {
+  "input": "What's the best phone to buy?",
+  "output": {
+   "refined_question": "What are the key factors to consider when choosing a new smartphone for personal use?",
+   "followups": [
+    "What is your primary use for the phone (e.g., photography, gaming, social media)?",
+    "What is your approximate budget?",
+    "Do you have a preference for a specific operating system or brand?"
+   ],
+   "assumptions": [
+    "You are looking for a phone for general, everyday use.",
+    "You want a balance between performance, features, and cost."
+   ],
+   "ask_for_constraints": [
+    "What is your maximum budget?",
+    "Are there any specific features you must have (e.g., long battery life, large screen)?",
+    "Do you have a preference for camera quality?"
+   ]
+  }
+ },
+ {
+  "input": "How can I be a better public speaker?",
+  "output": {
+   "refined_question": "What are some effective techniques and practice methods for improving public speaking skills?",
+   "followups": [
+    "What specific aspect of public speaking do you want to improve (e.g., confidence, delivery, content)?",
+    "What is your current experience level with public speaking?",
+    "In what contexts do you want to apply these skills (e.g., business presentations, casual events, teaching)?"
+   ],
+   "assumptions": [
+    "You are a beginner or have some prior experience but need to refine your skills.",
+    "You are looking for practical, actionable advice."
+   ],
+   "ask_for_constraints": [
+    "What is your timeframe for improvement?",
+    "Are you willing to participate in workshops or group activities?",
+    "Do you have a specific goal, like giving a major presentation in the near future?"
+   ]
+  }
+ },
+ {
+  "input": "How to get in shape?",
+  "output": {
+   "refined_question": "What is an effective and sustainable plan for improving overall physical fitness?",
+   "followups": [
+    "What are your specific fitness goals (e.g., weight loss, muscle gain, endurance)?",
+    "What is your current fitness level and daily routine like?",
+    "Do you have access to a gym or do you prefer at-home workouts?"
+   ],
+   "assumptions": [
+    "You are looking for a general fitness plan, not a specialized training program.",
+    "You have no pre-existing injuries or health issues."
+   ],
+   "ask_for_constraints": [
+    "How many days per week can you dedicate to working out?",
+    "What is your preferred duration for each workout session?",
+    "What are your dietary preferences or restrictions?"
+   ]
+  }
+ },
+ {
+  "input": "I want to start a podcast.",
+  "output": {
+   "refined_question": "What are the essential steps and equipment required to launch a new podcast from concept to a live episode?",
+   "followups": [
+    "What is the intended topic or niche of your podcast?",
+    "What is your current technical experience with audio recording and editing?",
+    "Do you plan to do a solo podcast or have co-hosts and guests?"
+   ],
+   "assumptions": [
+    "You are a beginner with no prior experience in podcasting.",
+    "You are looking for a guide that covers the entire process, including technical and content aspects."
+   ],
+   "ask_for_constraints": [
+    "What is your budget for equipment and software?",
+    "How much time can you dedicate per week to recording and editing?",
+    "What is your target timeline for releasing the first episode?"
+   ]
+  }
+ },
+ {
+  "input": "How do I become a better artist?",
+  "output": {
+   "refined_question": "What is a structured approach to learning and improving artistic skills for a beginner?",
+   "followups": [
+    "What type of art do you want to focus on (e.g., drawing, painting, digital art)?",
+    "Do you prefer a self-taught approach or structured courses?",
+    "What is your current level of experience with art?"
+   ],
+   "assumptions": [
+    "You are a beginner looking for foundational advice.",
+    "You are willing to dedicate time to practice and learning."
+   ],
+   "ask_for_constraints": [
+    "What is your budget for art supplies and resources?",
+    "How much time can you commit to practicing each week?",
+    "Are there any specific mediums or styles you are interested in?"
+   ]
+  }
+ },
+ {
+  "input": "I'm interested in traveling more.",
+  "output": {
+   "refined_question": "What are some practical tips for increasing travel opportunities and exploring new destinations on a budget?",
+   "followups": [
+    "Are you looking for advice on how to save money for travel or how to find cheaper travel options?",
+    "Do you prefer solo travel, group tours, or traveling with family?",
+    "What types of destinations are you most interested in (e.g., cities, nature, cultural sites)?"
+   ],
+   "assumptions": [
+    "You are looking for ways to make travel more accessible and affordable.",
+    "You are looking for general advice that can be applied to various types of travel."
+   ],
+   "ask_for_constraints": [
+    "What is your current travel budget and desired frequency?",
+    "Are there any specific regions or types of experiences you are interested in?",
+    "What is your preferred travel style (e.g., luxury, backpacking, budget-friendly)?"
+   ]
+  }
+ },
+ {
+  "input": "How to learn a new language?",
+  "output": {
+   "refined_question": "What is an effective learning strategy for a beginner to become fluent in a new language?",
+   "followups": [
+    "What is your motivation for learning the language (e.g., travel, career, personal interest)?",
+    "Do you prefer using apps, taking classes, or practicing with native speakers?",
+    "What is your current proficiency level in the target language?"
+   ],
+   "assumptions": [
+    "You are a beginner with no prior experience in the language.",
+    "You are looking for a comprehensive strategy, not just a list of resources."
+   ],
+   "ask_for_constraints": [
+    "How much time can you dedicate to studying each day or week?",
+    "What is your desired fluency level?",
+    "What is your timeline for reaching your learning goals?"
+   ]
+  }
+ },
+ {
+  "input": "I need financial advice.",
+  "output": {
+   "refined_question": "What are some foundational principles and practical steps for effective personal financial management?",
+   "followups": [
+    "What is your main financial goal (e.g., getting out of debt, building savings, investing)?",
+    "Are you looking for advice on budgeting, debt management, or long-term planning?",
+    "What is your current income and expense situation?"
+   ],
+   "assumptions": [
+    "You are looking for general financial literacy and management advice.",
+    "You are not seeking advice on a specific financial product or service."
+   ],
+   "ask_for_constraints": [
+    "What is your desired timeline for reaching your financial goals?",
+    "Are you willing to track and adjust your spending habits?",
+    "Do you have a specific financial challenge you're facing?"
+   ]
+  }
+ },
+ {
+  "input": "How to get a good night's sleep?",
+  "output": {
+   "refined_question": "What are the key lifestyle habits and environmental changes for improving sleep quality?",
+   "followups": [
+    "Are you experiencing difficulty falling asleep, staying asleep, or both?",
+    "What is your current sleep schedule and routine like?",
+    "Are there any specific factors you believe are affecting your sleep, such as stress or noise?"
+   ],
+   "assumptions": [
+    "You are looking for non-medical solutions and advice.",
+    "The sleep issues are not caused by a serious medical condition."
+   ],
+   "ask_for_constraints": [
+    "What is your desired sleep duration?",
+    "How much time are you willing to dedicate to a new routine?",
+    "Do you have any specific habits you want to change (e.g., screen time before bed)?"
+   ]
+  }
+ },
+ {
+  "input": "I want to be a better cook.",
+  "output": {
+   "refined_question": "What is a foundational learning path for a beginner to develop basic cooking skills and confidence in the kitchen?",
+   "followups": [
+    "What is your current level of experience with cooking?",
+    "Are you looking to learn basic meal preparation or more advanced techniques?",
+    "What are your dietary preferences?"
+   ],
+   "assumptions": [
+    "You are a complete beginner with little to no experience.",
+    "You are looking for a guide that covers both techniques and simple recipes."
+   ],
+   "ask_for_constraints": [
+    "What is your budget for groceries and basic equipment?",
+    "How much time can you dedicate to cooking each week?",
+    "Are there any specific cuisines or dishes you're interested in learning?"
+   ]
+  }
+ },
+ {
+  "input": "How to improve my memory?",
+  "output": {
+   "refined_question": "What are some effective techniques and lifestyle changes for enhancing cognitive function and memory retention?",
+   "followups": [
+    "Are you looking to improve a specific type of memory (e.g., short-term, long-term, working memory)?",
+    "Is your goal academic, professional, or general cognitive improvement?",
+    "Are you looking for brain exercises, dietary advice, or other lifestyle changes?"
+   ],
+   "assumptions": [
+    "You are looking for general, non-medical advice.",
+    "The advice should be practical for a person with an average lifestyle."
+   ],
+   "ask_for_constraints": [
+    "What is your timeframe for seeing results?",
+    "Are you willing to incorporate new habits into your daily routine?",
+    "Do you have any specific memory challenges you're facing?"
+   ]
+  }
+ },
+ {
+  "input": "What's the best way to get a job?",
+  "output": {
+   "refined_question": "What are the key steps and strategies for conducting an effective job search and securing a new position?",
+   "followups": [
+    "What industry or role are you targeting?",
+    "What is your current career stage (e.g., recent graduate, career changer, experienced professional)?",
+    "What kind of job are you looking for (e.g., full-time, part-time, remote)?"
+   ],
+   "assumptions": [
+    "You are a job seeker looking for actionable advice.",
+    "You have a specific field or type of work in mind."
+   ],
+   "ask_for_constraints": [
+    "What is your ideal timeline for finding a new job?",
+    "Are there any geographic constraints to your job search?",
+    "What are your salary expectations or career goals?"
+   ]
+  }
+ },
+ {
+  "input": "How to manage my time better?",
+  "output": {
+   "refined_question": "What are the most effective time management techniques for increasing productivity and reducing stress?",
+   "followups": [
+    "Are you struggling with managing time for work, personal life, or both?",
+    "What are your biggest time-related challenges (e.g., procrastination, disorganization, interruptions)?",
+    "Do you prefer using digital tools or physical planners?"
+   ],
+   "assumptions": [
+    "You are looking for practical, easy-to-implement strategies.",
+    "You have a desire to be more organized and efficient."
+   ],
+   "ask_for_constraints": [
+    "What is the context of your time management needs (e.g., student, professional, freelancer)?",
+    "How much time can you realistically dedicate to learning and applying new techniques?",
+    "What is your primary goal, such as meeting deadlines or having more free time?"
+   ]
+  }
+ },
+ {
+  "input": "I'm bored, what can I do?",
+  "output": {
+   "refined_question": "What are some new and engaging hobbies that are suitable for an adult?",
+   "followups": [
+    "Do you prefer creative, physical, or intellectual activities?",
+    "Are you looking for a hobby that is low-cost or a skill you can monetize?",
+    "Do you prefer solitary or social activities?"
+   ],
+   "assumptions": [
+    "You are looking for a hobby that is accessible to a beginner.",
+    "The hobbies should be common and easy to start."
+   ],
+   "ask_for_constraints": [
+    "What is your budget for starting a new hobby?",
+    "How much free time do you have per week?",
+    "Do you have any space or equipment limitations?"
+   ]
+  }
+ },
+ {
+  "input": "What's the best workout?",
+  "output": {
+   "refined_question": "What are some effective and balanced workout routines for building general fitness?",
+   "followups": [
+    "What are your specific fitness goals (e.g., strength, endurance, flexibility, weight loss)?",
+    "What is your current level of physical activity and experience?",
+    "Do you have access to a gym or do you prefer at-home workouts?"
+   ],
+   "assumptions": [
+    "You are looking for general fitness advice, not a specialized training program.",
+    "You have no pre-existing injuries or health issues."
+   ],
+   "ask_for_constraints": [
+    "How many days per week can you dedicate to working out?",
+    "What is your preferred duration for each workout session?",
+    "Do you have a specific time frame for achieving your goals?"
+   ]
+  }
+ },
+ {
+  "input": "How to meditate?",
+  "output": {
+   "refined_question": "What is a simple, step-by-step guide for a beginner to start a regular meditation practice?",
+   "followups": [
+    "What is your primary goal for meditating (e.g., reducing stress, improving focus, spiritual growth)?",
+    "How much time can you realistically dedicate to meditating each day?",
+    "Do you prefer a guided meditation or a silent practice?"
+   ],
+   "assumptions": [
+    "You have little to no prior experience with meditation.",
+    "You are looking for a practical approach, not a deep philosophical explanation."
+   ],
+   "ask_for_constraints": [
+    "What is your desired timeline for building a consistent habit?",
+    "Are there any specific types of meditation you're interested in (e.g., mindfulness, loving-kindness)?",
+    "What time of day is best for you to practice?"
+   ]
+  }
+ },
+ {
+  "input": "I want to be more confident.",
+  "output": {
+   "refined_question": "What are some practical and psychological techniques for building self-confidence and self-esteem?",
+   "followups": [
+    "In what specific situations do you lack confidence (e.g., public speaking, social events, work presentations)?",
+    "What is your primary goal for becoming more confident?",
+    "Do you prefer a gradual approach or a more direct one?"
+   ],
+   "assumptions": [
+    "You are looking for actionable, non-medical advice.",
+    "The confidence issues are not a result of a serious psychological condition."
+   ],
+   "ask_for_constraints": [
+    "What is your timeline for seeing improvement?",
+    "Are you willing to try new behaviors and habits?",
+    "Do you have a specific social or professional context you want to focus on?"
+   ]
+  }
+ },
+ {
+  "input": "How to deal with stress?",
+  "output": {
+   "refined_question": "What are some effective and healthy strategies for managing and reducing stress in daily life?",
+   "followups": [
+    "Is the stress related to work, personal life, or a specific event?",
+    "What are your current coping mechanisms, both effective and ineffective?",
+    "Are you looking for short-term relief or long-term management techniques?"
+   ],
+   "assumptions": [
+    "You are looking for general advice, not a medical or therapeutic diagnosis.",
+    "The stress is a result of normal daily pressures."
+   ],
+   "ask_for_constraints": [
+    "How much time can you dedicate to new stress-management practices?",
+    "Are you willing to try physical, mental, or emotional techniques?",
+    "Do you have a preference for solitary or social activities?"
+   ]
+  }
+ },
+ {
+  "input": "How to learn video editing?",
+  "output": {
+   "refined_question": "What is a structured learning path and resource guide for a beginner to learn video editing?",
+   "followups": [
+    "What is your primary goal for learning video editing (e.g., hobby, career, social media content)?",
+    "What is your current technical skill level?",
+    "Do you prefer using free or paid software?"
+   ],
+   "assumptions": [
+    "You are a beginner with no prior experience.",
+    "You are looking for a guide that covers both fundamental skills and software."
+   ],
+   "ask_for_constraints": [
+    "What is your budget for software and equipment?",
+    "How much time can you commit to practicing each week?",
+    "What is the type of content you want to create (e.g., short films, YouTube videos, vlogs)?"
+   ]
+  }
+ },
+{
+    "input": "I want to be more creative",
+    "output": {
+      "refined_question": "What are practical methods to enhance creative thinking and generate more innovative ideas in daily life?",
+      "followups": ["Are you looking to be creative in a specific area like art, problem-solving, or work projects?", "What currently blocks your creative expression?", "Do you prefer structured exercises or free-form creative activities?"],
+      "assumptions": ["You feel stuck in routine thinking patterns", "You want to express creativity more regularly"],
+      "ask_for_constraints": ["Creative domain of interest", "Time available for creative practice", "Current creative outlets or interests"]
+    }
+  },
+  {
+    "input": "help me with anxiety",
+    "output": {
+      "refined_question": "What are effective coping strategies and lifestyle changes to manage anxiety and reduce its impact on daily functioning?",
+      "followups": ["What situations typically trigger your anxiety most?", "Are you experiencing general anxiety or specific phobias?", "Do you prefer self-help techniques or are you open to professional support?"],
+      "assumptions": ["Anxiety interferes with your quality of life", "You want practical management techniques"],
+      "ask_for_constraints": ["Anxiety triggers and severity level", "Preference for self-help vs professional help", "Daily routine flexibility for anxiety management"]
+    }
+  },
+  {
+    "input": "I need to learn Spanish",
+    "output": {
+      "refined_question": "What is the most effective method to learn Spanish from beginner to conversational fluency?",
+      "followups": ["Do you need Spanish for travel, work, or personal enrichment?", "Do you prefer immersive learning or structured classroom-style approaches?", "What is your experience with learning other languages?"],
+      "assumptions": ["You're starting from beginner level", "You want practical conversational ability"],
+      "ask_for_constraints": ["Learning timeline and fluency goals", "Daily practice time available", "Learning method preferences (apps, classes, tutoring)"]
+    }
+  },
+  {
+    "input": "how to buy a house",
+    "output": {
+      "refined_question": "What is the step-by-step process for first-time homebuyers to successfully purchase a home?",
+      "followups": ["What is your current financial situation regarding down payment and income?", "Are you familiar with the home buying process and real estate market?", "Do you have a specific location or type of home in mind?"],
+      "assumptions": ["You're a first-time homebuyer", "You need guidance on the entire process"],
+      "ask_for_constraints": ["Budget range and down payment availability", "Desired location and home type", "Timeline for home purchase"]
+    }
+  },
+  {
+    "input": "I want to start running",
+    "output": {
+      "refined_question": "How can a beginner safely start a running routine and progress to running longer distances consistently?",
+      "followups": ["What is your current fitness level and exercise history?", "Do you want to run for fitness, weight loss, or race preparation?", "Do you prefer outdoor running or treadmill training?"],
+      "assumptions": ["You have minimal running experience", "You want to build a sustainable running habit"],
+      "ask_for_constraints": ["Current fitness baseline", "Running goals (distance, time, races)", "Available time for training"]
+    }
+  },
+  {
+    "input": "help me declutter my life",
+    "output": {
+      "refined_question": "What is a systematic approach to decluttering possessions, commitments, and mental space for a simpler, more focused life?",
+      "followups": ["Are you focusing on physical possessions, schedule commitments, or both?", "What areas of your life feel most overwhelming right now?", "Do you prefer gradual changes or comprehensive overhauls?"],
+      "assumptions": ["You feel overwhelmed by excess in multiple life areas", "You want intentional simplification"],
+      "ask_for_constraints": ["Priority areas for decluttering", "Timeline for decluttering process", "Support system for maintaining changes"]
+    }
+  },
+  {
+    "input": "I need to learn project management",
+    "output": {
+      "refined_question": "How can I develop practical project management skills to successfully plan, execute, and deliver projects on time and within scope?",
+      "followups": ["Do you need project management for work advancement or personal projects?", "What size and type of projects will you be managing?", "Are you interested in formal certification or practical skills?"],
+      "assumptions": ["You manage or will manage projects regularly", "You want structured methodologies and tools"],
+      "ask_for_constraints": ["Project types and complexity levels", "Learning timeline and certification goals", "Industry or context for project management"]
+    }
+  },
+  {
+    "input": "how to improve my posture",
+    "output": {
+      "refined_question": "What are effective exercises and lifestyle changes to correct poor posture and prevent related pain or health issues?",
+      "followups": ["Do you spend most of your day sitting at a desk or in other specific positions?", "Are you experiencing pain or discomfort related to posture?", "Do you prefer exercise-based solutions or ergonomic adjustments?"],
+      "assumptions": ["You have noticeable posture issues", "You want to prevent long-term health problems"],
+      "ask_for_constraints": ["Primary posture problems and causes", "Time available for corrective exercises", "Work environment modification possibilities"]
+    }
+  },
+  {
+    "input": "I want to learn drawing",
+    "output": {
+      "refined_question": "What is the best learning progression for a beginner to develop fundamental drawing skills and artistic technique?",
+      "followups": ["Are you interested in realistic drawing, cartoon/illustration, or abstract art?", "Do you prefer traditional pencil and paper or digital drawing tools?", "What subjects do you most want to draw - people, landscapes, objects?"],
+      "assumptions": ["You have little drawing experience", "You want to develop technical skill alongside creativity"],
+      "ask_for_constraints": ["Drawing style and medium preferences", "Practice time available weekly", "Budget for art supplies or digital tools"]
+    }
+  },
+  {
+    "input": "help me build self-discipline",
+    "output": {
+      "refined_question": "What are proven strategies to develop stronger self-discipline and consistently follow through on commitments and goals?",
+      "followups": ["In which areas do you most struggle with self-discipline - health, work, or personal habits?", "Do you start strong but fade over time, or struggle to begin new habits?", "What has worked or failed for you in building discipline before?"],
+      "assumptions": ["You struggle with consistency in important areas", "You want sustainable behavior change"],
+      "ask_for_constraints": ["Priority areas needing more discipline", "Current habits and routine structure", "Accountability and support preferences"]
+    }
+  },
+  {
+    "input": "I need to learn budgeting",
+    "output": {
+      "refined_question": "How can I create and maintain an effective personal budget to control spending and achieve financial goals?",
+      "followups": ["Do you currently track your spending or income in any way?", "Are you budgeting to save money, pay off debt, or plan for specific goals?", "Do you prefer detailed tracking or simple, broad categories?"],
+      "assumptions": ["You want better control over your finances", "You need a practical system you can maintain"],
+      "ask_for_constraints": ["Current income and major expense categories", "Financial goals and timeline", "Preferred budgeting method complexity"]
+    }
+  },
+  {
+    "input": "how to start a blog",
+    "output": {
+      "refined_question": "What are the essential steps to create, launch, and grow a successful blog with engaged readership?",
+      "followups": ["What topic or niche do you want to blog about?", "Are you blogging for personal expression, business, or income generation?", "What is your experience with writing and online platforms?"],
+      "assumptions": ["You have knowledge or passion to share", "You want to build an audience over time"],
+      "ask_for_constraints": ["Blog topic and target audience", "Posting frequency and time commitment", "Monetization goals and timeline"]
+    }
+  },
+  {
+    "input": "I want to improve my leadership skills",
+    "output": {
+      "refined_question": "How can I develop effective leadership abilities to inspire, guide, and manage teams or projects successfully?",
+      "followups": ["Are you currently in a leadership role or preparing for one?", "What type of leadership challenges do you face - team management, decision-making, or communication?", "Do you prefer learning through formal training or practical experience?"],
+      "assumptions": ["You have or will have leadership responsibilities", "You want to be more effective in guiding others"],
+      "ask_for_constraints": ["Current or expected leadership context", "Team size and industry", "Learning method and timeline preferences"]
+    }
+  },
+  {
+    "input": "help me learn to dance",
+    "output": {
+      "refined_question": "What is the best approach for a beginner to learn dance fundamentals and develop rhythm, coordination, and technique?",
+      "followups": ["What style of dance interests you most - social, ballroom, hip-hop, or contemporary?", "Do you want to dance socially, competitively, or for fitness and fun?", "Do you prefer group classes, private lessons, or self-teaching with videos?"],
+      "assumptions": ["You have minimal dance experience", "You want to feel comfortable and confident dancing"],
+      "ask_for_constraints": ["Dance style preferences", "Learning environment preferences", "Practice time and lesson budget available"]
+    }
+  },
+  {
+    "input": "I need to manage my emotions better",
+    "output": {
+      "refined_question": "What are effective techniques for emotional regulation and developing healthier responses to challenging feelings?",
+      "followups": ["Which emotions do you struggle with most - anger, sadness, anxiety, or others?", "Do you tend to suppress emotions or express them intensely?", "Are you interested in mindfulness approaches or cognitive strategies?"],
+      "assumptions": ["Emotions sometimes feel overwhelming or uncontrolled", "You want healthier emotional patterns"],
+      "ask_for_constraints": ["Specific emotional challenges", "Triggers and patterns to address", "Preferred approach type (mindfulness, cognitive, behavioral)"]
+    }
+  },
+  {
+    "input": "how to learn video editing",
+    "output": {
+      "refined_question": "What is an effective learning path to master video editing software and create professional-quality videos?",
+      "followups": ["What type of videos do you want to create - personal, business, or creative content?", "Do you have a preference for specific editing software?", "What is your current technical skill level with computers and software?"],
+      "assumptions": ["You want to create and edit videos regularly", "You need both technical and creative skills"],
+      "ask_for_constraints": ["Video content type and purpose", "Software budget and computer capabilities", "Learning timeline and practice commitment"]
+    }
+  },
+  {
+    "input": "I want to be more organized",
+    "output": {
+      "refined_question": "How can I develop better organizational systems for managing tasks, possessions, and information efficiently?",
+      "followups": ["Which areas need the most organization - physical spaces, digital files, or task management?", "Do you prefer simple systems or detailed organizational methods?", "What currently prevents you from staying organized?"],
+      "assumptions": ["Disorganization affects your productivity or stress levels", "You want sustainable organizational habits"],
+      "ask_for_constraints": ["Priority areas needing organization", "Time available for organizing and maintenance", "Preferred organizational tool types"]
+    }
+  },
+  {
+    "input": "help me choose a college major",
+    "output": {
+      "refined_question": "How can I systematically evaluate potential college majors that align with my interests, abilities, and career goals?",
+      "followups": ["What subjects or activities do you find most engaging?", "Are you more interested in practical career preparation or intellectual exploration?", "Do you have any career fields you're already considering?"],
+      "assumptions": ["You're unsure about academic and career direction", "You want a major that leads to fulfilling opportunities"],
+      "ask_for_constraints": ["Academic interests and strengths", "Career goals and income expectations", "College timeline and program requirements"]
+    }
+  },
+  {
+    "input": "I need to learn sales skills",
+    "output": {
+      "refined_question": "What are the fundamental sales techniques and relationship-building skills needed to successfully sell products or services?",
+      "followups": ["Are you selling for your own business, in a sales role, or developing general persuasion skills?", "What type of product or service sales will you be doing?", "Do you prefer consultative selling or more direct sales approaches?"],
+      "assumptions": ["You need to sell something as part of your work or business", "You want ethical, relationship-based sales methods"],
+      "ask_for_constraints": ["Sales context and product type", "Experience level with sales", "Target customers and sales environment"]
+    }
+  },
+  {
+    "input": "how to improve my voice",
+    "output": {
+      "refined_question": "What are effective techniques to improve vocal quality, projection, and clarity for speaking or singing?",
+      "followups": ["Are you focusing on speaking voice for presentations or singing voice for performance?", "What specific vocal issues do you want to address - volume, clarity, or tone?", "Do you prefer self-guided practice or professional vocal coaching?"],
+      "assumptions": ["You use your voice professionally or want to improve communication", "You're willing to practice vocal exercises regularly"],
+      "ask_for_constraints": ["Voice use purpose (speaking vs singing)", "Specific vocal challenges", "Practice time and coaching budget available"]
+    }
+  },
+  {
+    "input": "I want to learn about wine",
+    "output": {
+      "refined_question": "How can I develop knowledge and appreciation of wine, including tasting skills and understanding different varieties and regions?",
+      "followups": ["Are you interested in wine for personal enjoyment, professional development, or social situations?", "Do you want to focus on specific wine types or regions?", "Do you prefer structured classes or self-guided exploration?"],
+      "assumptions": ["You want to appreciate wine beyond casual drinking", "You're interested in developing your palate"],
+      "ask_for_constraints": ["Learning purpose and depth desired", "Budget for wine education and tastings", "Preferred learning format and timeline"]
+    }
+  },
+  {
+    "input": "help me with decision making",
+    "output": {
+      "refined_question": "What are systematic approaches to making better decisions with confidence and clarity in important life situations?",
+      "followups": ["Do you struggle more with small daily decisions or major life choices?", "What typically makes decisions difficult for you - too many options, fear of consequences, or lack of information?", "Do you prefer analytical frameworks or intuitive decision-making approaches?"],
+      "assumptions": ["Decision-making anxiety or indecision affects your progress", "You want more confidence in your choices"],
+      "ask_for_constraints": ["Types of decisions causing most difficulty", "Decision-making timeline pressures", "Risk tolerance and consequences you're facing"]
+    }
+  },
+  {
+    "input": "I need to learn conflict resolution",
+    "output": {
+      "refined_question": "How can I develop skills to effectively navigate and resolve conflicts in personal and professional relationships?",
+      "followups": ["Are you dealing with workplace conflicts, family disputes, or general relationship tensions?", "Do you tend to avoid conflict or engage too aggressively?", "Are you looking to resolve specific ongoing conflicts or build general skills?"],
+      "assumptions": ["Conflict negatively impacts your relationships or work", "You want constructive resolution strategies"],
+      "ask_for_constraints": ["Conflict types and contexts", "Relationship dynamics involved", "Urgency of current conflict situations"]
+    }
+  },
+  {
+    "input": "how to start investing in stocks",
+    "output": {
+      "refined_question": "What is a beginner-friendly approach to stock market investing that balances growth potential with risk management?",
+      "followups": ["What is your investment timeline - short-term gains or long-term wealth building?", "How much risk are you comfortable taking with your investments?", "Do you want to pick individual stocks or prefer diversified funds?"],
+      "assumptions": ["You have money available to invest", "You want to grow wealth through stock market participation"],
+      "ask_for_constraints": ["Investment amount and timeline", "Risk tolerance level", "Investment knowledge and research time available"]
+    }
+  },
+  {
+    "input": "I want to learn programming",
+    "output": {
+      "refined_question": "What is the most effective learning path for a beginner to develop programming skills and build functional software applications?",
+      "followups": ["What type of programming interests you - web development, mobile apps, or data analysis?", "Do you learn better through structured courses or hands-on projects?", "Are you learning for career change or personal projects?"],
+      "assumptions": ["You have minimal programming experience", "You want to create working programs or applications"],
+      "ask_for_constraints": ["Programming language and application type", "Learning timeline and daily commitment", "Career goals vs hobby interest"]
+    }
+  },
+  {
+    "input": "help me build better habits",
+    "output": {
+      "refined_question": "What are proven strategies to establish positive habits and make them stick consistently over time?",
+      "followups": ["What specific habits do you want to build - health, productivity, or personal development?", "Have you tried building habits before, and what happened?", "Do you prefer starting with small changes or comprehensive lifestyle overhauls?"],
+      "assumptions": ["You want to improve your life through consistent positive behaviors", "Previous habit attempts may have failed"],
+      "ask_for_constraints": ["Specific habits to establish", "Current routine and schedule structure", "Accountability and tracking preferences"]
+    }
+  },
+  {
+    "input": "I need to improve my negotiation skills",
+    "output": {
+      "refined_question": "How can I develop effective negotiation techniques to achieve better outcomes in professional and personal situations?",
+      "followups": ["What types of negotiations do you encounter - salary, contracts, or personal agreements?", "Do you tend to be too aggressive, too passive, or inconsistent in negotiations?", "Are you negotiating for yourself or representing others?"],
+      "assumptions": ["Negotiation outcomes affect your success or satisfaction", "You want win-win solutions when possible"],
+      "ask_for_constraints": ["Negotiation contexts and frequency", "Stakes and consequences of negotiations", "Relationship preservation importance"]
+    }
+  },
+  {
+    "input": "how to learn a craft",
+    "output": {
+      "refined_question": "What is the best approach to master a hands-on craft skill from beginner to proficient level?",
+      "followups": ["Which specific craft are you interested in - woodworking, knitting, pottery, or something else?", "Are you crafting for personal enjoyment, gifts, or potential income?", "Do you prefer learning through classes, online tutorials, or trial and error?"],
+      "assumptions": ["You want to create physical objects with your hands", "You're willing to invest time in developing skill"],
+      "ask_for_constraints": ["Specific craft and skill level goals", "Budget for tools and materials", "Learning method and practice space available"]
+    }
+  },
+  {
+    "input": "I want to be more assertive",
+    "output": {
+      "refined_question": "How can I develop healthy assertiveness to communicate needs and boundaries clearly without being aggressive or passive?",
+      "followups": ["In which situations do you struggle most to be assertive - work, family, or social settings?", "Do you tend to avoid conflict entirely or struggle to express disagreement respectfully?", "What concerns you most about being more assertive?"],
+      "assumptions": ["Lack of assertiveness negatively impacts your relationships or goals", "You want to maintain good relationships while standing up for yourself"],
+      "ask_for_constraints": ["Priority situations needing assertiveness", "Relationship contexts and consequences", "Comfort level with potential conflict"]
+    }
+  },
+  {
+    "input": "help me learn mindfulness",
+    "output": {
+      "refined_question": "What are practical mindfulness techniques and practices to increase present-moment awareness and reduce stress in daily life?",
+      "followups": ["Are you interested in mindfulness for stress reduction, focus improvement, or spiritual growth?", "Do you prefer formal meditation practice or informal mindfulness throughout the day?", "What is your current experience with meditation or contemplative practices?"],
+      "assumptions": ["You feel stressed or disconnected from the present moment", "You want practical techniques for daily life"],
+      "ask_for_constraints": ["Primary mindfulness goals", "Time available for practice", "Preferred practice style and setting"]
+    }
+  },
+  {
+    "input": "I need to learn time blocking",
+    "output": {
+      "refined_question": "How can I implement an effective time blocking system to increase productivity and better manage competing priorities?",
+      "followups": ["What are your biggest challenges with current time management - interruptions, procrastination, or overcommitment?", "Do you have control over your schedule or work within fixed constraints?", "Do you prefer digital tools or paper-based planning systems?"],
+      "assumptions": ["Your current time management isn't meeting your needs", "You want more intentional control over your schedule"],
+      "ask_for_constraints": ["Schedule flexibility and constraints", "Priority tasks and commitments", "Tool preferences and planning time available"]
+    }
+  },
+  {
+    "input": "how to improve my credit",
+    "output": {
+      "refined_question": "What specific actions can I take to raise my credit score and establish better credit management habits?",
+      "followups": ["Do you know your current credit score and what's impacting it negatively?", "Are you dealing with late payments, high balances, or lack of credit history?", "Do you have any major purchases planned that require good credit?"],
+      "assumptions": ["Your credit score needs improvement", "You understand the importance of good credit"],
+      "ask_for_constraints": ["Current credit situation and specific issues", "Timeline for credit improvement", "Major credit needs or goals"]
+    }
+  },
+  {
+    "input": "I want to learn about cryptocurrency",
+    "output": {
+      "refined_question": "How can I understand cryptocurrency fundamentals and evaluate whether crypto investments align with my financial goals and risk tolerance?",
+      "followups": ["Are you interested in crypto for investment, technology understanding, or both?", "What is your current knowledge of investing and financial markets?", "How much risk are you comfortable taking with speculative investments?"],
+      "assumptions": ["You want to understand crypto before making decisions", "You recognize crypto involves significant risk"],
+      "ask_for_constraints": ["Learning depth desired (basic vs technical)", "Investment timeline and risk tolerance", "Amount considering for crypto investment"]
+    }
+  },
+  {
+    "input": "help me with work-life balance",
+    "output": {
+      "refined_question": "What are effective strategies to create better boundaries between work and personal life while maintaining career success?",
+      "followups": ["Are you working too many hours, bringing work stress home, or neglecting personal time?", "Do you work from home, in an office, or a hybrid arrangement?", "What aspects of your personal life are most affected by work demands?"],
+      "assumptions": ["Work is negatively impacting your personal life", "You want sustainable career success"],
+      "ask_for_constraints": ["Specific work-life balance challenges", "Job flexibility and boundary-setting ability", "Personal priorities being neglected"]
+    }
+  },
+  {
+    "input": "I need to learn graphic design",
+    "output": {
+      "refined_question": "What is the most effective way to learn graphic design principles and software skills to create professional-quality visual communications?",
+      "followups": ["What type of design work interests you - logos, marketing materials, or web design?", "Are you learning for career change, freelance work, or personal projects?", "Do you have any artistic background or experience with design software?"],
+      "assumptions": ["You want to create visually appealing designs", "You need both creative and technical skills"],
+      "ask_for_constraints": ["Design focus area and purpose", "Software budget and computer capabilities", "Learning timeline and practice commitment"]
+    }
+  },
+  {
+    "input": "how to start meal planning",
+    "output": {
+      "refined_question": "What is a practical system for planning, preparing, and organizing meals to save time, money, and improve nutrition?",
+      "followups": ["Are you planning for just yourself, a family, or specific dietary needs?", "What are your main goals - saving time, eating healthier, or reducing food costs?", "How much time can you dedicate to meal planning and prep each week?"],
+      "assumptions": ["Current meal routine isn't meeting your needs", "You want more intentional food planning"],
+      "ask_for_constraints": ["Household size and dietary requirements", "Primary meal planning goals", "Time available for planning and preparation"]
+    }
+  },
+  {
+    "input": "I want to learn about personal finance",
+    "output": {
+      "refined_question": "How can I develop comprehensive personal financial literacy to make better money decisions and build long-term wealth?",
+      "followups": ["Which areas of finance do you most need help with - budgeting, investing, or debt management?", "What is your current level of financial knowledge and management?", "Are you dealing with specific financial challenges or planning for future goals?"],
+      "assumptions": ["You want better control over your financial future", "You need foundational financial knowledge"],
+      "ask_for_constraints": ["Priority financial topics to learn", "Current financial situation and challenges", "Financial goals and timeline"]
+    }
+  },
+  {
+    "input": "help me learn photography",
+    "output": {
+      "refined_question": "What is the best learning progression to develop photography skills from basic camera operation to creating compelling images?",
+      "followups": ["What type of photography most interests you - portraits, landscapes, or street photography?", "Do you have a camera or need equipment recommendations?", "Are you more interested in technical mastery or artistic expression?"],
+      "assumptions": ["You want to take better quality photos", "You're willing to learn both technical and creative aspects"],
+      "ask_for_constraints": ["Photography genre and style preferences", "Equipment budget and current gear", "Learning method and practice time available"]
+    }
+  },
+  {
+    "input": "I need to improve my listening skills",
+    "output": {
+      "refined_question": "How can I become a more effective listener to improve communication and strengthen relationships in personal and professional settings?",
+      "followups": ["Do you struggle more with staying focused during conversations or knowing how to respond appropriately?", "Are you trying to improve listening at work, in relationships, or in general social situations?", "What typically distracts you or prevents good listening?"],
+      "assumptions": ["Poor listening affects your relationships or effectiveness", "You want to be more present in conversations"],
+      "ask_for_constraints": ["Primary listening challenges and contexts", "Relationships or situations most affected", "Practice opportunities available"]
+    }
+  },
+  {
+    "input": "how to learn speed reading",
+    "output": {
+      "refined_question": "What are effective techniques to increase reading speed while maintaining or improving comprehension and retention?",
+      "followups": ["What type of material do you need to read faster - work documents, books, or academic texts?", "What is your current reading speed and comprehension level?", "Are you more concerned with speed or understanding complex material?"],
+      "assumptions": ["You have significant reading demands", "You want to process information more efficiently"],
+      "ask_for_constraints": ["Reading material types and purposes", "Current reading speed baseline", "Comprehension requirements and goals"]
+    }
   }
 ]
 
