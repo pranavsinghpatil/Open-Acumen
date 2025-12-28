@@ -1,1 +1,16 @@
 This is a new file created in Colab.
+https://immersivemath.com/ila/preferences.html
+https://immersivemath.com/ila/ch00_preface/preface.html
+
+https://immersivemath.com/ila/ch01_introduction/ch01.html
+
+https://immersivemath.com/ila/ch02_vectors/ch02.html
+
+https://immersivemath.com/ila/ch03_dotproduct/ch03.html
+https://immersivemath.com/ila/ch04_vectorproduct/ch04.html
+https://immersivemath.com/ila/ch05_gausselim/ch05.html
+https://immersivemath.com/ila/ch06_matrices/ch06.html
+https://immersivemath.com/ila/ch07_determinants/ch07.html
+https://immersivemath.com/ila/ch08_rank/ch08.html
+https://immersivemath.com/ila/ch09_linear_mappings/ch09.html
+https://immersivemath.com/ila/ch10_eigen/ch10.htm
