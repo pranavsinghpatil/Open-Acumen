@@ -1,0 +1,75 @@
+# Research Directory Git Ignore
+
+# Ignore large files
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.bin
+*.dat
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.rar
+*.7z
+
+# Ignore data directories
+Datasets/*/raw/
+Datasets/*/processed/
+
+# Ignore experiment outputs
+Experiments/*/runs/
+Experiments/*/logs/
+Experiments/*/results/
+
+# Ignore model checkpoints
+Implementations/*/checkpoints/
+Implementations/*/*.pt
+Implementations/*/*.pth
+
+# Ignore cache and temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Ignore IDE files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore Jupyter notebooks (if not needed)
+*.ipynb
+.ipynb_checkpoints/
+
+# Ignore environment files
+venv/
+.env/
+env/
+.venv/
+
+# Ignore log files
+*.log
+*.txt
+
+# Ignore output directories
+output/
+outputs/
+results/
+
+# Ignore downloaded data
+data/
+downloads/
+
+# Ignore temporary files
+temp/
+tmp/

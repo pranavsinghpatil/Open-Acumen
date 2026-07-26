@@ -1,0 +1,203 @@
+# Experiment Configuration Template
+# Use this template for all experiment configurations
+
+# Experiment identification
+experiment_name: "{{experiment_name}}"  # Short descriptive name
+experiment_id: "{{paper_short_name}}_{{config_name}}_seed{{seed}}"  # Unique ID
+description: |
+  {{Detailed description of the experiment}}
+
+# Paper information (if reproducing a paper)
+paper: "{{Paper Title}}"
+paper_year: {{YYYY}}
+paper_arxiv_id: "{{2401.12345}}"
+
+# Model configuration
+model:
+  type: "{{model_type}}"  # e.g., transformer, cnn, rnn
+  
+  # Architecture parameters
+  hidden_size: {{512}}
+  num_layers: {{6}}
+  num_heads: {{8}}
+  intermediate_size: {{2048}}
+  dropout: {{0.1}}
+  
+  # Model-specific parameters
+  max_seq_length: {{512}}
+  vocab_size: {{30522}}
+  
+  # Initialization
+  init_method: "{{xavier | kaiming | normal | uniform}}"
+  init_std: {{0.02}}
+
+# Training configuration
+training:
+  # Optimization
+  optimizer: "{{adam | sgd | adamw | rmsprop}}"
+  learning_rate: {{0.001}}
+  weight_decay: {{0.01}}
+  momentum: {{0.9}}
+  
+  # Learning rate schedule
+  lr_schedule: "{{constant | linear | cosine | step | exponential}}"
+  warmup_steps: {{4000}}
+  warmup_ratio: {{0.1}}
+  decay_steps: {{100000}}
+  min_lr: {{1e-6}}
+  
+  # Batch and epochs
+  batch_size: {{32}}
+  gradient_accumulation_steps: {{1}}
+  epochs: {{100}}
+  max_steps: {{100000}}
+  
+  # Regularization
+  dropout: {{0.1}}
+  label_smoothing: {{0.1}}
+  
+  # Gradient clipping
+  grad_clip: {{1.0}}
+  grad_clip_norm: "{{value}}"
+
+# Data configuration
+data:
+  # Dataset
+  dataset: "{{dataset_name}}"
+  data_dir: "{{path/to/data}}"
+  
+  # Splits
+  train_file: "{{train.json}}"
+  val_file: "{{val.json}}"
+  test_file: "{{test.json}}"
+  
+  # Preprocessing
+  max_seq_length: {{512}}
+  stride: {{128}}
+  
+  # Data augmentation
+  shuffle: {{true}}
+  
+  # Number of workers
+  num_workers: {{4}}
+
+# Evaluation configuration
+evaluation:
+  eval_batch_size: {{32}}
+  eval_every: {{1000}}  # Evaluate every N steps
+  save_every: {{5000}}  # Save checkpoint every N steps
+  
+  # Metrics
+  metrics: ["{{accuracy}}", "{{f1}}", "{{loss}}", "{{perplexity}}"]
+  
+  # Early stopping
+  early_stopping: {{false}}
+  patience: {{5}}
+  min_delta: {{0.001}}
+
+# Hardware configuration
+hardware:
+  device: "{{cuda | cpu}}"
+  gpu_ids: [{{0}}]  # List of GPU IDs
+  mixed_precision: {{true}}  # Use mixed precision training
+  
+  # Distributed training
+  distributed: {{false}}
+  world_size: {{1}}
+  backend: "{{nccl | gloo}}"
+
+# Randomness control
+randomness:
+  seed: {{42}}
+  deterministic: {{true}}  # Make operations deterministic
+  
+  # Random seeds for different libraries
+  python_seed: {{42}}
+  numpy_seed: {{42}}
+  torch_seed: {{42}}
+  cuda_seed: {{42}}
+
+# Logging configuration
+logging:
+  log_dir: "{{logs}}"
+  log_file: "{{experiment_id}}.log"
+  log_level: "{{INFO | DEBUG | WARNING | ERROR}}"
+  
+  # TensorBoard
+  tensorboard: {{true}}
+  tensorboard_dir: "{{runs}}"
+  
+  # Weights & Biases
+  wandb: {{false}}
+  wandb_project: "{{project_name}}"
+  wandb_entity: "{{username}}"
+  wandb_run_name: "{{experiment_id}}"
+  
+  # MLflow
+  mlflow: {{false}}
+  mlflow_experiment: "{{experiment_name}}"
+
+# Checkpointing configuration
+checkpoint:
+  save_dir: "{{checkpoints}}"
+  save_best: {{true}}  # Save best model
+  save_latest: {{true}}  # Save latest model
+  save_all: {{false}}  # Save all checkpoints
+  
+  # What to save
+  save_model: {{true}}
+  save_optimizer: {{true}}
+  save_scheduler: {{true}}
+  save_config: {{true}}
+  
+  # Resume training
+  resume: {{false}}
+  checkpoint_path: "{{path/to/checkpoint.pt}}"
+
+# Output configuration
+output:
+  output_dir: "{{outputs}}"
+  
+  # What to output
+  save_predictions: {{false}}
+  save_attentions: {{false}}  # For transformer models
+  save_hidden_states: {{false}}
+
+# Debugging configuration
+debug:
+  debug_mode: {{false}}
+  fast_dev_run: {{false}}  # Run a quick test
+  overfit_batches: {{0}}  # Overfit on N batches for debugging
+  
+  # Profiling
+  profile: {{false}}
+  profile_steps: {{100}}
+
+# Reproducibility information (auto-filled)
+reproducibility:
+  python_version: "{{3.9.0}}"
+  pytorch_version: "{{1.12.0}}"
+  transformers_version: "{{4.26.0}}"
+  other_versions: {}
+  
+  # Hardware info
+  cpu: "{{Intel(R) Xeon(R) CPU}}"
+  gpu: "{{NVIDIA A100}}"
+  gpu_memory: "{{40GB}}"
+  
+  # Timing
+  start_time: "{{YYYY-MM-DD HH:MM:SS}}"
+  end_time: "{{YYYY-MM-DD HH:MM:SS}}"
+  duration: "{{HH:MM:SS}}"
+
+# Custom parameters (add any paper-specific parameters here)
+custom:
+  # Example for transformer
+  num_attention_heads: {{8}}
+  attention_dropout: {{0.1}}
+  
+  # Example for diffusion
+  num_diffusion_steps: {{1000}}
+  beta_schedule: "{{linear | cosine}}"
+  
+  # Add any other custom parameters here

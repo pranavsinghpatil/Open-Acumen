@@ -1,0 +1,75 @@
+# Paper Metadata Template
+# Fill in all fields for each paper
+
+# Required fields
+title: "{{Paper Title}}"
+authors: ["{{First Author}}", "{{Second Author}}"]
+venue: "{{Conference or Journal Name}}"
+year: {{YYYY}}
+
+# Optional fields - fill in as many as possible
+arxiv_id: "{{2401.12345}}"
+doi: "{{10.1234/abc.def}}"
+url: "{{https://arxiv.org/abs/2401.12345}}"
+pdf_url: "{{https://arxiv.org/pdf/2401.12345.pdf}}"
+
+# Additional URLs
+github_url: "{{https://github.com/user/repo}}"
+project_url: "{{https://project-website.com}}"
+demo_url: "{{https://demo-website.com}}"
+
+# Classification
+tags: ["{{tag1}}", "{{tag2}}", "{{tag3}}"]
+category: "{{cs.LG}}"  # arXiv category: cs.LG, cs.CV, cs.CL, etc.
+
+# Paper type
+paper_type: "{{journal | conference | workshop | preprint | technical_report}}"
+
+# Status tracking
+status: "{{to_read | reading | read | implementing | implemented | reproduced}}"
+priority: "{{high | medium | low}}"
+
+# Reading progress (if applicable)
+pages_read: {{0-100}}  # Percentage of paper read
+last_read: "{{YYYY-MM-DD}}"
+
+# Implementation status
+implementation_status: "{{not_started | in_progress | completed}}"
+implementation_difficulty: "{{easy | medium | hard}}"
+implementation_notes: "{{Any notes about implementation}}"
+
+# Reproduction status
+reproduction_status: "{{not_attempted | attempted | partial | full}}"
+reproduction_notes: "{{Any notes about reproduction}}"
+
+# Results comparison
+paper_results: {
+  "{{metric1}}": {{value}},
+  "{{metric2}}": {{value}}
+}
+our_results: {
+  "{{metric1}}": {{value}},
+  "{{metric2}}": {{value}}
+}
+
+# Quality assessment
+rating: {{1-5}}  # 1-5 stars
+quality: "{{excellent | good | average | poor}}"
+novelty: "{{high | medium | low}}"
+impact: "{{high | medium | low}}"
+
+# Notes
+notes: |
+  {{Any additional notes about the paper}}
+
+# Related papers
+related_papers: ["{{Paper 1}}", "{{Paper 2}}"]
+
+# Citation count (if known)
+citations: {{0}}
+
+# Date added to repository
+added_date: "{{YYYY-MM-DD}}"
+
+# Last updated
+last_updated: "{{YYYY-MM-DD}}"
