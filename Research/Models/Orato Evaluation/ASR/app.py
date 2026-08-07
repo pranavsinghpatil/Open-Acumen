@@ -1,7 +1,11 @@
 import gradio as gr
-import spaces
 import torch
 import qwen_asr
+
+try:
+    import spaces
+except ImportError:
+    spaces = None
 
 
 MODEL_ID = "tryorato/orato-asr-hindi-v1"
@@ -25,7 +29,13 @@ def _load_asr():
 wrapper = _load_asr()
 
 
-@spaces.GPU
+def _gpu_decorator(fn):
+    if spaces is not None and hasattr(spaces, "GPU"):
+        return spaces.GPU(fn)
+    return fn
+
+
+@_gpu_decorator
 def transcribe(audio_path):
     if audio_path is None:
         return ""
